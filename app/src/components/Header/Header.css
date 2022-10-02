@@ -12,7 +12,13 @@
 .header-container h1 {
     font-size: 24px;
 
+    color: var(--black);
+
     display: flex;
+}
+
+.header-container h1:hover {
+    cursor: pointer;
 }
 
 .header-container h1 .details {

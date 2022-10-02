@@ -4,6 +4,8 @@ import { CodeImg } from '../../components/CodeImg/CodeImg'
 
 import { Header } from '../../components/Header/Header'
 
+import { About } from '../../components/About/About'
+
 export function Home() {
 
     return (
@@ -23,6 +25,12 @@ export function Home() {
                         <CodeImg />
                     </div>
                 </section>
+
+                <div className='division'></div>
+
+                <About />
+
+                <div className='division'></div>
             </main>
 
         </div>
