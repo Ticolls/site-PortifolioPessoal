@@ -1,0 +1,12 @@
+.point {
+    width: 10px;
+    height: 10px;
+
+    background-color: var(--green);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid var(--light-green);
+}

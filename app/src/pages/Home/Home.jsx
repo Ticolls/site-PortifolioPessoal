@@ -6,6 +6,8 @@ import { Header } from '../../components/Header/Header'
 
 import { About } from '../../components/sections/About/About'
 import { Skills } from '../../components/sections/Skills/Skills'
+import { Contact } from '../../components/sections/Contact/Contact'
+
 import { Division } from '../../components/Division/Division'
 
 export function Home() {
@@ -33,9 +35,13 @@ export function Home() {
                 <Division />
                 <Skills />
                 <Division />
+                <Contact />
+                <Division />
 
             </main>
 
         </div>
     )
 }
+
+/* <a href="https://br.freepik.com/vetores-gratis/ilustracao-do-conceito-de-digitacao-de-codigo_10259340.htm#page=2&position=43&from_view=author">Imagem de storyset</a> no Freepik */

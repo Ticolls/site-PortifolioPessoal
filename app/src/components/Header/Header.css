@@ -48,10 +48,10 @@
 .header-container .header-content nav {
     display: flex;
 
-    gap: 100px;
+    gap: 60px;
 }
 
-.header-container .header-content nav .link {
+.header-container .header-content nav .anchor {
     font-size: 18px;
 
     color: var(--black);
@@ -60,6 +60,6 @@
     transition-timing-function: linear;
 }
 
-.header-container .header-content nav .link.active {
+.header-container .header-content nav .anchor.active {
     color: var(--green);
 }

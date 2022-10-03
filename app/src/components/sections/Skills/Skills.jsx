@@ -12,10 +12,12 @@ import MongoDBImg from '../../imgs/MongoDBImg'
 import SassImg from '../../imgs/SassImg'
 import FireBaseImg from '../../imgs/FireBaseImg'
 
+import { BulletPoint } from '../../BulletPoint/BulletPoint'
+
 export function Skills() {
     return (
         <section className='skills-section' id='skills-section'>
-            <header> <div className='point'> <div className='square'></div> </div>Skills</header>
+            <header><BulletPoint />Skills</header>
 
             <div className='skills-content'>
                 <div className="line">
