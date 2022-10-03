@@ -6,33 +6,60 @@
 
     display: flex;
     align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+
+    background-color: white;
+}
+
+.header-container .header-content {
+    width: 100%;
+    height: 100%;
+
+    margin-left: 180px;
+    margin-right: 180px;
+
+    display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
-.header-container h1 {
+.header-container .header-content .logo {
     font-size: 24px;
+    font-weight: 500;
 
     color: var(--black);
 
     display: flex;
 }
 
-.header-container h1:hover {
+.header-container .header-content .logo:hover {
     cursor: pointer;
 }
 
-.header-container h1 .details {
+.header-container .header-content .logo .details {
     color: var(--green);
 }
 
-.header-container nav {
+.header-container .header-content nav {
     display: flex;
 
     gap: 100px;
 }
 
-.header-container nav a {
+.header-container .header-content nav .link {
     font-size: 18px;
 
     color: var(--black);
+
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+.header-container .header-content nav .link.active {
+    color: var(--green);
 }

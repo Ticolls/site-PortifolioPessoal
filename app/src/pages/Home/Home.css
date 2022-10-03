@@ -1,4 +1,4 @@
-.home {
+.home main {
     margin: 0px 180px 0px 180px;
 }
 
@@ -7,6 +7,10 @@
 
     align-items: center;
     justify-content: space-between;
+
+    height: 80vh;
+
+    margin-top: 100px;
 }
 
 .master-view .info-container {

@@ -2,10 +2,10 @@ import './About.css'
 
 export function About() {
     return (
-        <section className='about-section'>
+        <section className='about-section' id='about-section'>
             <div className='perfil'>
                 <div className='img-container'>
-                    {/* <img src="" alt="foto pessoal" /> */}
+                    <div className='img'></div>
                 </div>
 
                 <p>Thiago Seixas</p>

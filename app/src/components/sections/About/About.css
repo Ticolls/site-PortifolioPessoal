@@ -27,17 +27,26 @@
     justify-content: center;
 
     border-radius: 100%;
+
+
+
+}
+
+.about-section .perfil .img-container .img {
+    width: 135px;
+    height: 135px;
+
+    border-radius: 100%;
+
+    background-image: url("foto-GitHub.jpeg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .about-section .perfil p {
     color: var(--gray);
-}
-
-.about-section .perfil .img-container img {
-    width: 145px;
-    height: 145px;
-
-    border-radius: 100%;
 }
 
 .about-section .text {

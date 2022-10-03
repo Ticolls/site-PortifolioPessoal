@@ -14,7 +14,7 @@ import FireBaseImg from '../../imgs/FireBaseImg'
 
 export function Skills() {
     return (
-        <section className='skills-section'>
+        <section className='skills-section' id='skills-section'>
             <header> <div className='point'> <div className='square'></div> </div>Skills</header>
 
             <div className='skills-content'>
