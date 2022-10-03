@@ -1,0 +1,58 @@
+.skills-section header {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+
+    color: var(--black);
+
+    font-size: 28px;
+    font-weight: bold;
+
+    margin-bottom: 50px;
+}
+
+
+.skills-section .skills-content {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 50px;
+}
+
+.skills-section .skills-content .line {
+    display: flex;
+
+    width: 100%;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills-section .skills-content .cel {
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 25%;
+}
+
+.skills-section .skills-content .cel p {
+    color: var(--gray);
+}
+
+
+.icon {
+    width: 100px;
+    height: 100px;
+}

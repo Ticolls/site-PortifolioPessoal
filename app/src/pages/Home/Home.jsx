@@ -1,10 +1,12 @@
 import './Home.css'
 
-import { CodeImg } from '../../components/CodeImg/CodeImg'
+import { CodeImg } from '../../components/imgs/CodeImg/CodeImg'
 
 import { Header } from '../../components/Header/Header'
 
-import { About } from '../../components/About/About'
+import { About } from '../../components/sections/About/About'
+import { Skills } from '../../components/sections/Skills/Skills'
+import { Division } from '../../components/Division/Division'
 
 export function Home() {
 
@@ -26,11 +28,12 @@ export function Home() {
                     </div>
                 </section>
 
-                <div className='division'></div>
-
+                <Division />
                 <About />
+                <Division />
+                <Skills />
+                <Division />
 
-                <div className='division'></div>
             </main>
 
         </div>

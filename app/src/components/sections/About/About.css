@@ -5,7 +5,7 @@
 }
 
 .about-section .perfil {
-    width: 40%;
+    width: 30%;
 
     display: flex;
     flex-direction: column;
@@ -41,7 +41,7 @@
 }
 
 .about-section .text {
-    width: 60%;
+    width: 70%;
 
     display: flex;
     flex-direction: column;
@@ -60,27 +60,10 @@
     font-size: 28px;
     font-weight: bold;
 
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
-.about-section .text header .point {
-    width: 10px;
-    height: 10px;
 
-    border: 1px solid var(--green);
-
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-}
-
-.about-section .text header .point .square {
-    width: 5px;
-    height: 5px;
-
-    background-color: var(--green);
-}
 
 .about-section .text h3 {
     margin-bottom: 20px;
