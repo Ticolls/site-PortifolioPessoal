@@ -16,3 +16,14 @@
     --gray-400: #7c7c8a;
     --gray-100: #e1e1e6;
 }
+
+
+.app {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+}

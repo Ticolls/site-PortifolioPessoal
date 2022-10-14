@@ -5,25 +5,23 @@ import { CodeImg } from '../../components/imgs/CodeImg/CodeImg'
 export function Home() {
 
     return (
-        <div className='home'>
-            <main>
-                <section className='master-view' id='master-view'>
-                    <div className='info-container'>
-                        <div className='texts'>
-                            <p className='title'>Desenvolvedor Full-Stack</p>
-                            <h1 className='name'>Thiago Seixas</h1>
-                            <p className='description'>Estudante de ciências da computação pela Universidade Federal da Bahia (UFBA). Apaixonado por tecnologia e pelo mundo do desenvolvimento.</p>
-                        </div>
-                        <button>Baixar Currículo</button>
-                    </div>
-                    <div className='img-container'>
-                        <CodeImg />
-                    </div>
-                </section>
 
-            </main>
+        <section className='home-section'>
+            <div className='home-content'>
+                <div className='info-container'>
+                    <div className='texts'>
+                        <p className='title'>Desenvolvedor Full-Stack</p>
+                        <h1 className='name'>Thiago Seixas</h1>
+                        <p className='description'>Estudante de ciências da computação pela Universidade Federal da Bahia (UFBA). Apaixonado por tecnologia e pelo mundo do desenvolvimento.</p>
+                    </div>
+                    <button>Baixar Currículo</button>
+                </div>
+                <div className='img-container'>
+                    <CodeImg />
+                </div>
+            </div>
+        </section>
 
-        </div>
     )
 }
 
