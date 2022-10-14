@@ -2,20 +2,10 @@ import './Home.css'
 
 import { CodeImg } from '../../components/imgs/CodeImg/CodeImg'
 
-import { Header } from '../../components/Header/Header'
-
-import { About } from '../../components/sections/About/About'
-import { Skills } from '../../components/sections/Skills/Skills'
-import { Contact } from '../../components/sections/Contact/Contact'
-import { Projects } from '../../components/sections/Projects/Projects'
-
-import { Division } from '../../components/Division/Division'
-
 export function Home() {
 
     return (
         <div className='home'>
-            <Header />
             <main>
                 <section className='master-view' id='master-view'>
                     <div className='info-container'>
@@ -30,16 +20,6 @@ export function Home() {
                         <CodeImg />
                     </div>
                 </section>
-
-                <Division />
-                <About />
-                <Division />
-                <Skills />
-                <Division />
-                <Projects />
-                <Division />
-                <Contact />
-                <Division />
 
             </main>
 

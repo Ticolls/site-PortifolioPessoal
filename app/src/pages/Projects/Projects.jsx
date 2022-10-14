@@ -1,6 +1,6 @@
 import './Projects.css'
 
-import { BulletPoint } from '../../BulletPoint/BulletPoint'
+import { BulletPoint } from '../../components/BulletPoint/BulletPoint'
 
 export function Projects() {
     return (

@@ -1,10 +1,10 @@
 import './About.css'
 
-import { BulletPoint } from '../../BulletPoint/BulletPoint'
+import { BulletPoint } from '../../components/BulletPoint/BulletPoint'
 
 export function About() {
     return (
-        <section className='about-section' id='about-section'>
+        <section className='about-section'>
             <div className='perfil'>
                 <div className='img-container'>
                     <div className='img'></div>

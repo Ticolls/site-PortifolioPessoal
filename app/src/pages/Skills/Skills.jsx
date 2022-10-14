@@ -1,18 +1,18 @@
 import './Skills.css'
-import HtmlImg from '../../imgs/HtmlImg'
-import CssImg from '../../imgs/CssImg'
-import JavaScrptImg from '../../imgs/JavaScriptImg'
-import TypeScriptImg from '../../imgs/TypeScriptImg'
-import ReactImg from '../../imgs/ReactImg'
-import NodeImg from '../../imgs/NodeImg'
-import GitImg from '../../imgs/GitImg'
-import MySQL from '../../imgs/MySQL'
-import PrismaImg from '../../imgs/PrismaImg'
-import MongoDBImg from '../../imgs/MongoDBImg'
-import SassImg from '../../imgs/SassImg'
-import FireBaseImg from '../../imgs/FireBaseImg'
+import HtmlImg from '../../components/imgs/HtmlImg'
+import CssImg from '../../components/imgs/CssImg'
+import JavaScrptImg from '../../components/imgs/JavaScriptImg'
+import TypeScriptImg from '../../components/imgs/TypeScriptImg'
+import ReactImg from '../../components/imgs/ReactImg'
+import NodeImg from '../../components/imgs/NodeImg'
+import GitImg from '../../components/imgs/GitImg'
+import MySQL from '../../components/imgs/MySQL'
+import PrismaImg from '../../components/imgs/PrismaImg'
+import MongoDBImg from '../../components/imgs/MongoDBImg'
+import SassImg from '../../components/imgs/SassImg'
+import FireBaseImg from '../../components/imgs/FireBaseImg'
 
-import { BulletPoint } from '../../BulletPoint/BulletPoint'
+import { BulletPoint } from '../../components/BulletPoint/BulletPoint'
 
 export function Skills() {
     return (
@@ -33,7 +33,7 @@ export function Skills() {
                     <div className='cel'><FireBaseImg /> <p>FireBase</p></div>
                 </div>
                 <div className="line">
-                    <div className='cel'><p>Node</p><MySQL /> <p>MySQL</p></div>
+                    <div className='cel'><MySQL /> <p>MySQL</p></div>
                     <div className='cel'><MongoDBImg /> <p>MongoDB</p></div>
                     <div className='cel'><PrismaImg /> <p>Prisma</p></div>
                     <div className='cel'><GitImg /><p>Git</p></div>
