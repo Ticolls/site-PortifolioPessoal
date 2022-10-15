@@ -2,9 +2,17 @@ import './About.css'
 
 import { BulletPoint } from '../../components/BulletPoint/BulletPoint'
 
+import { motion } from 'framer-motion'
+
 export function About() {
     return (
-        <section className='about-section'>
+        <motion.section
+            className='about-section'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.1 }}
+        >
             <div className="about-content">
                 <div className='perfil'>
                     <div className='img-container'>
@@ -20,6 +28,6 @@ export function About() {
                     <p>Com isso, venho estudando tanto pela faculdade quanto de forma autônoma para aperfeiçoar minhas habilidades e competências na área de desenvolvimento que eu tanto amo. Atualmente, estudo e trabalho com desenvolvimento web FullStack.</p>
                 </div>
             </div>
-        </section>
+        </motion.section>
     )
 }

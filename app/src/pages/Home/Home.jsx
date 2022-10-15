@@ -2,11 +2,19 @@ import './Home.css'
 
 import { CodeImg } from '../../components/imgs/CodeImg/CodeImg'
 
+import { motion } from 'framer-motion'
+
 export function Home() {
 
     return (
 
-        <section className='home-section'>
+        <motion.section
+            className='home-section'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.1 }}
+        >
             <div className='home-content'>
                 <div className='info-container'>
                     <div className='texts'>
@@ -20,7 +28,7 @@ export function Home() {
                     <CodeImg />
                 </div>
             </div>
-        </section>
+        </motion.section>
 
     )
 }

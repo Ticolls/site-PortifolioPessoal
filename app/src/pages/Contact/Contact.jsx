@@ -7,9 +7,17 @@ import MessageIcon from '../../components/imgs/MessageIcon'
 import LinkedinIcon from '../../components/imgs/LinkedinIcon'
 import EmailIcon from '../../components/imgs/EmailIcon'
 
+import { motion } from 'framer-motion'
+
 export function Contact() {
     return (
-        <section className='contact-section'>
+        <motion.section
+            className='contact-section'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.1 }}
+        >
             <header><BulletPoint />Contact</header>
 
             <div className="contact-content">
@@ -21,6 +29,6 @@ export function Contact() {
                     <a className="link"><EmailIcon /> <p>ticolls@hotmail.com</p></a>
                 </div>
             </div>
-        </section>
+        </motion.section>
     )
 }

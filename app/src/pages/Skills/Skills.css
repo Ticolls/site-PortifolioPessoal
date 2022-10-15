@@ -14,6 +14,9 @@
 
 .skills-section header {
 
+    width: 100%;
+    height: 20%;
+
     display: flex;
 
     align-items: center;
@@ -26,32 +29,22 @@
     font-size: 32px;
     font-weight: semi-bold;
 
-    margin-top: 50px;
-
-    margin-bottom: 40px;
 }
 
 
 .skills-section .skills-content {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
 
     width: 100%;
+    height: 80%;
 
-    align-items: center;
-    justify-content: center;
 
-    gap: 30px;
+    padding: 0 50px;
 }
 
-.skills-section .skills-content .line {
-    display: flex;
-
-    width: 100%;
-
-    align-items: center;
-    justify-content: space-between;
-}
 
 .skills-section .skills-content .cel {
     display: flex;
@@ -62,8 +55,6 @@
     justify-content: center;
 
     gap: 5px;
-
-    width: 25%;
 }
 
 .skills-section .skills-content .cel p {

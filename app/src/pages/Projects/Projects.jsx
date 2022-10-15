@@ -2,9 +2,17 @@ import './Projects.css'
 
 import { BulletPoint } from '../../components/BulletPoint/BulletPoint'
 
+import { motion } from 'framer-motion'
+
 export function Projects() {
     return (
-        <section className='projects-section'>
+        <motion.section
+            className='projects-section'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.1 }}
+        >
             <header><BulletPoint />Projects</header>
 
             <div className="projects-content">
@@ -29,7 +37,8 @@ export function Projects() {
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
+
             </div>
-        </section>
+        </motion.section>
     )
 }

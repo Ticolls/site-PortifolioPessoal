@@ -50,6 +50,10 @@
     transition-timing-function: linear;
 }
 
+.header-container .header-content nav .anchor:hover {
+    color: #c0c0c7;
+}
+
 .header-container .header-content nav .anchor.active {
-    color: var(--primary-color);
+    box-shadow: 0 2px 0 0 var(--primary-color);
 }
