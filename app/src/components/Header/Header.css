@@ -51,7 +51,7 @@
 }
 
 .header-container .header-content nav .anchor:hover {
-    color: #c0c0c7;
+    color: var(--gray-200)
 }
 
 .header-container .header-content nav .anchor.active {

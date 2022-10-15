@@ -70,7 +70,7 @@
 .home-content .info-container button:hover {
 
     background-color: var(--primary-color);
-    color: var(--gray-100);
+    color: var(--gray-900);
 
     cursor: pointer;
 
