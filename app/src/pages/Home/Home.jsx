@@ -3,6 +3,9 @@ import './Home.css'
 import { CodeImg } from '../../components/imgs/CodeImg/CodeImg'
 
 import { motion } from 'framer-motion'
+import { Button } from '../../components/Button/Button'
+
+import { DownloadSimple } from 'phosphor-react'
 
 export function Home() {
 
@@ -22,7 +25,10 @@ export function Home() {
                         <h1 className='name'>Thiago Seixas</h1>
                         <p className='description'>Estudante de ciências da computação pela Universidade Federal da Bahia (UFBA). Apaixonado por tecnologia e pelo mundo do desenvolvimento.</p>
                     </div>
-                    <button>Baixar Currículo</button>
+                    <Button.Root>
+                        <Button.Text>Baixar currículo</Button.Text>
+                        <Button.Icon><DownloadSimple /></Button.Icon>
+                    </Button.Root>
                 </div>
                 <div className='img-container'>
                     <CodeImg />

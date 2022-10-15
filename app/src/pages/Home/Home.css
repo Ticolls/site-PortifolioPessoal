@@ -52,29 +52,3 @@
 
     margin-top: 10px;
 }
-
-.home-content .info-container button {
-    width: 230px;
-    height: 40px;
-
-    background-color: transparent;
-
-    border: solid 2px var(--primary-color);
-    border-radius: 4px;
-
-    color: var(--primary-color);
-
-    font-size: 20px;
-}
-
-.home-content .info-container button:hover {
-
-    background-color: var(--primary-color);
-    color: var(--gray-900);
-
-    cursor: pointer;
-
-    transition-duration: 0.2s;
-    transition-timing-function: linear;
-
-}
