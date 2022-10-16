@@ -9,7 +9,7 @@ function Icon() {
             viewBox="0 0 24 24"
         >
             <g
-                fill="#5DE4A3"
+                fill="#5B86E5"
                 fillRule="evenodd"
                 clipPath="url(#clip0_9239_41764)"
                 clipRule="evenodd"

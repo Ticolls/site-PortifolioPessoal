@@ -14,7 +14,7 @@ export function AnimatedRoutes() {
     const location = useLocation()
 
     return (
-        <AnimatePresence exitBeforeEnter>
+        <AnimatePresence mode="wait">
             <Routes location={location} key={location.pathname}>
                 <Route path='/' element={<Home />} />
                 <Route path='/about' element={<About />} />

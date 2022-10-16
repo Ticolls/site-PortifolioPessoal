@@ -25,10 +25,12 @@ export function Home() {
                         <h1 className='name'>Thiago Seixas</h1>
                         <p className='description'>Estudante de ciências da computação pela Universidade Federal da Bahia (UFBA). Apaixonado por tecnologia e pelo mundo do desenvolvimento.</p>
                     </div>
-                    <Button.Root>
-                        <Button.Text>Baixar currículo</Button.Text>
-                        <Button.Icon><DownloadSimple /></Button.Icon>
-                    </Button.Root>
+                    <div className='button-area'>
+                        <Button.Root>
+                            <Button.Icon><DownloadSimple /></Button.Icon>
+                            <Button.Text>Baixar currículo</Button.Text>
+                        </Button.Root>
+                    </div>
                 </div>
                 <div className='img-container'>
                     <CodeImg />
