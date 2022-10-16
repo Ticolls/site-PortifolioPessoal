@@ -41,4 +41,3 @@ export function Home() {
     )
 }
 
-/* <a href="https://br.freepik.com/vetores-gratis/ilustracao-do-conceito-de-digitacao-de-codigo_10259340.htm#page=2&position=43&from_view=author">Imagem de storyset</a> no Freepik */

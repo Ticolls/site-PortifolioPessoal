@@ -14,13 +14,19 @@
     align-items: center;
     justify-content: center;
 
+    gap: 30%;
 }
 
 .footer-container p {
+    text-decoration: none;
     color: var(--gray-400);
     font-size: 12px;
 }
 
-.footer-container p span {
+.footer-container p a {
+    color: var(--primary-color);
+}
+
+.footer-container .highlighted {
     color: var(--primary-color);
 }
