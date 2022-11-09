@@ -1,28 +1,25 @@
 import './App.css'
 
-import { BrowserRouter, useLocation } from "react-router-dom";
-
 import { Header } from './components/Header/Header'
+import { Footer } from './components/Footer/Footer'
 
-
-import { AnimatedRoutes } from './components/AnimatedRoutes/AnimatedRoutes';
-
-import { Footer } from './components/Footer/Footer';
-import { useState } from 'react';
-import { useEffect } from 'react';
-
+import { Home } from './pages/Home/Home'
+import { About } from './pages/About/About'
+import { Projects } from './pages/Projects/Projects'
+import { Skills } from './pages/Skills/Skills'
+import { Contact } from './pages/Contact/Contact'
 
 function App() {
 
   return (
     <div className='app'>
-      <BrowserRouter>
-
-        <Header />
-        <AnimatedRoutes />
-        <Footer />
-
-      </BrowserRouter>
+      <Header />
+      <Home />
+      <About />
+      <Projects />
+      <Skills />
+      <Contact />
+      <Footer />
     </div>
   )
 }

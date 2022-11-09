@@ -1,19 +1,8 @@
 import './Header.css'
 
-import { Link, useLocation } from 'react-router-dom'
-
-import { useState } from 'react'
-import { useEffect } from 'react'
+import { Link } from 'react-scroll'
 
 export function Header() {
-
-    let location = useLocation()
-
-    const [navStatus, setNavStatus] = useState(location)
-
-    useEffect(() => {
-        setNavStatus(location.pathname)
-    }, [location])
 
 
     return (
@@ -21,11 +10,11 @@ export function Header() {
             <div className='header-content'>
                 <Link className='logo' to='/'> <div className='details'>&lt;/ </div>Thiago Seixas<div className='details'> &gt;</div></Link>
                 <nav>
-                    <Link href="#" className={navStatus == "/" ? "anchor active" : "anchor"} to='/'>Home</Link>
-                    <Link href="#" className={navStatus == "/about" ? "anchor active" : "anchor"} to='about'>About</Link>
-                    <Link href="#" className={navStatus == "/skills" ? "anchor active" : "anchor"} to='skills'>Skills</Link>
-                    <Link href="#" className={navStatus == "/projects" ? "anchor active" : "anchor"} to='projects'>Projects</Link>
-                    <Link href="#" className={navStatus == "/contact" ? "anchor active" : "anchor"} to='contact'>Contact</Link>
+                    <Link href="#" className="anchor" to='home-section' smooth={true} offset={-100}>Home</Link>
+                    <Link href="#" className="anchor" to='about-section' smooth={true} offset={-80}>About</Link>
+                    <Link href="#" className="anchor" to='skills-section' smooth={true} offset={-80}>Skills</Link>
+                    <Link href="#" className="anchor" to='projects-section' smooth={true} offset={-80}>Projects</Link>
+                    <Link href="#" className="anchor" to='contact-section' smooth={true} offset={-80}>Contact</Link>
                 </nav>
             </div>
         </header >

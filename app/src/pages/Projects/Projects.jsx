@@ -35,13 +35,7 @@ const cards = [
 
 export function Projects() {
     return (
-        <motion.section
-            className='projects-section'
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.1 }}
-        >
+        <section className='projects-section'>
             <header><BulletPoint />Projects</header>
 
             <div className="projects-content">
@@ -91,6 +85,6 @@ export function Projects() {
                 </Card.Root>
  */}
             </div>
-        </motion.section>
+        </section>
     )
 }

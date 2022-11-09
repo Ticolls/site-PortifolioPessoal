@@ -11,13 +11,7 @@ export function Home() {
 
     return (
 
-        <motion.section
-            className='home-section'
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.1 }}
-        >
+        <section className='home-section'>
             <div className='home-content'>
                 <div className='info-container'>
                     <div className='texts'>
@@ -36,7 +30,7 @@ export function Home() {
                     <CodeImg />
                 </div>
             </div>
-        </motion.section>
+        </section>
 
     )
 }

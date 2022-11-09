@@ -14,17 +14,10 @@ import FireBaseImg from '../../components/imgs/FireBaseImg'
 
 import { BulletPoint } from '../../components/BulletPoint/BulletPoint'
 
-import { motion } from 'framer-motion'
 
 export function Skills() {
     return (
-        <motion.section
-            className='skills-section'
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.2 }}
-        >
+        <section className='skills-section'>
             <header><BulletPoint />Skills</header>
 
             <div className='skills-content'>
@@ -46,6 +39,6 @@ export function Skills() {
                 <div className='cel'><GitImg /><p>Git</p></div>
 
             </div>
-        </motion.section>
+        </section>
     )
 }
