@@ -81,15 +81,43 @@
     font-size: 32px;
     font-weight: semi-bold;
 
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 
 
 
 .about-content .text h3 {
     color: var(--gray-100);
+    margin-bottom: 5px;
 }
 
 .about-content .text p {
     color: var(--gray-400);
+}
+
+
+@media(max-width: 1050px) {
+    .about-section {
+        height: 100%;
+
+        padding: 50px 0;
+    }
+
+    .about-section .about-content {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .about-content .perfil {
+        gap: 10px;
+
+        order: 2;
+    }
+
+    .about-content .text {
+        justify-content: center;
+        align-items: center;
+
+        order: 1;
+    }
 }

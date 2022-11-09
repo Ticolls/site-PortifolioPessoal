@@ -2,8 +2,6 @@ import './About.css'
 
 import { BulletPoint } from '../../components/BulletPoint/BulletPoint'
 
-import { motion } from 'framer-motion'
-
 export function About() {
     return (
         <section className='about-section'>
