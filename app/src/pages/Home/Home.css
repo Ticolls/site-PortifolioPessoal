@@ -111,6 +111,11 @@
     .home-content .info-container .button-area {
         width: 60%;
     }
+
+    .home-content .img-container svg {
+        width: 300px;
+        height: 300px;
+    }
 }
 
 @media(max-width: 450px) {
