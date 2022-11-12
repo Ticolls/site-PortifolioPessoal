@@ -1,8 +1,8 @@
 import './Button.css'
 
-function ButtonRoot({ children }) {
+function ButtonRoot({ children, ...props }) {
     return (
-        <button className='button-root'>
+        <button className='button-root' {...props}>
             {children}
         </button>
     )

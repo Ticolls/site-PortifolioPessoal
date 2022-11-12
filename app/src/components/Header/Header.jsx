@@ -8,7 +8,7 @@ export function Header() {
     return (
         <header className='header-container'>
             <div className='header-content'>
-                <Link className='logo' to='/'> <div className='details'>&lt;/ </div>Thiago Seixas<div className='details'> &gt;</div></Link>
+                <Link className='logo' to='home-section' smooth={true} offset={-100}> <div className='details'>&lt;/ </div>Thiago Seixas<div className='details'> &gt;</div></Link>
                 <nav>
                     <Link href="#" className="anchor" to='home-section' smooth={true} offset={-100}>Home</Link>
                     <Link href="#" className="anchor" to='about-section' smooth={true} offset={-80}>About</Link>

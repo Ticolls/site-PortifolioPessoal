@@ -10,7 +10,7 @@ export function Card(props) {
         return (
             <div className='card-root front' onClick={() => setFlip(!flip)}>
                 <div className="card-viewbox">
-                    <img src={props.img} alt="Imagem do card" />
+                    {/* <img src={props.img} alt="Imagem do card" /> */}
                 </div>
                 <h4 className="card-header">{props.header}</h4>
                 <p className="card-p">{props.p}</p>
