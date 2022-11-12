@@ -90,6 +90,10 @@
         align-items: center;
     }
 
+    .home-content .info-container .description {
+        text-align: center;
+    }
+
     .home-content .info-container .button-area {
         width: 30%;
     }

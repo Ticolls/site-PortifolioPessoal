@@ -51,7 +51,7 @@
 
     border-radius: 100%;
 
-    background-image: url("foto-GitHub.jpeg");
+    background-image: url("../../assets/foto-GitHub.jpeg");
 
     background-position: center;
     background-repeat: no-repeat;
@@ -119,5 +119,10 @@
         align-items: center;
 
         order: 1;
+    }
+
+    .about-content .text p,
+    .about-content .text h3 {
+        text-align: center;
     }
 }
