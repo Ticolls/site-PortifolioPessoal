@@ -78,7 +78,7 @@
 
     color: var(--gray-100);
 
-    font-size: 32px;
+    font-size: var(--header-md);
     font-weight: semi-bold;
 
     margin-bottom: 5px;

@@ -48,7 +48,7 @@
 .home-content .info-container .name {
     color: var(--gray-100);
 
-    font-size: 30px;
+    font-size: var(--header-sm);
 }
 
 .home-content .info-container .description {

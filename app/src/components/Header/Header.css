@@ -24,7 +24,7 @@
 }
 
 .header-container .header-content .logo {
-    font-size: 24px;
+    font-size: var(--header-md);
     font-weight: 500;
 
     color: var(--gray-100);
@@ -47,7 +47,7 @@
 }
 
 .header-container .header-content nav .anchor {
-    font-size: 18px;
+    font-size: var(--text-md);
 
     color: var(--gray-100);
 
@@ -57,4 +57,17 @@
 
 .header-container .header-content nav .anchor:hover {
     color: var(--primary-color)
+}
+
+
+@media(max-width: 1150px) {
+    .header-container .header-content nav {
+        gap: 40px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .header-container .header-content nav {
+        gap: 40px;
+    }
 }

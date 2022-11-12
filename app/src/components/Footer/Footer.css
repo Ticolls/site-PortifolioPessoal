@@ -19,7 +19,7 @@
 .footer-container p {
     text-decoration: none;
     color: var(--gray-400);
-    font-size: 12px;
+    font-size: var(--text-sm);
 }
 
 .footer-container p a {

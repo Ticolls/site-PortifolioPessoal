@@ -20,6 +20,14 @@
     --gray-400: #7c7c8a;
     --gray-200: #c4c4cc;
     --gray-100: #e1e1e6;
+
+    --header-sm: 24px;
+    --header-md: 32px;
+    --header-lg: 40px;
+
+    --text-sm: 12px;
+    --text-md: 16px;
+    --text-lg: 20px;
 }
 
 
