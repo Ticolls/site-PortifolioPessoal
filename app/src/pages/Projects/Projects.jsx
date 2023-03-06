@@ -11,7 +11,7 @@ const cards = [
     {
         id: 1,
         img: "",
-        header: "Projeto 1",
+        header: "Em breve",
         p: "Lorem Ipsum afddio gadsg bidsbvj nvid sansdui vdnci ddpibdaaas iudsbauib ",
         tags: ["HTML5", "CSS3", "JavaScript", "TypeScript", "Node", "Prisma"]
 
@@ -19,14 +19,14 @@ const cards = [
     {
         id: 2,
         img: "",
-        header: "Projeto 2",
+        header: "Em breve",
         p: "Lorem Ipsum afddioga ds gbidsbvjn vids ansduivd nciddpibdaaas iudsbauib ",
         tags: ["HTML5", "CSS3", "JavaScript", "TypeScript"]
     },
     {
         id: 3,
         img: "",
-        header: "Projeto 3",
+        header: "Em brece",
         p: "Lorem Ipsum afddi ogadsgbi dsbvj nvidsa nsdui vdn ciddp ibdaaas iudsbauib ",
         tags: ["HTML5", "CSS3", "JavaScript", "Java", "MySQL"]
 
