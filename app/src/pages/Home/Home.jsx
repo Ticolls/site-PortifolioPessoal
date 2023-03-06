@@ -2,15 +2,23 @@ import './Home.css'
 
 import { CodeImg } from '../../components/imgs/CodeImg/CodeImg'
 
-import { motion } from 'framer-motion'
 import { Button } from '../../components/Button/Button'
 
 import { DownloadSimple } from 'phosphor-react'
 
 export function Home() {
 
-    function downloadCurriulum() {
-        alert("em breve")
+    async function downloadCurriculum() {
+        fetch("Thiago-Seixas.pdf").then(response => {
+            response.blob().then(blob => {
+                const fileURL = window.URL.createObjectURL(blob)
+
+                let alink = document.createElement('a')
+                alink.href = fileURL
+                alink.download = "Thiago-Seixas.pdf"
+                alink.click()
+            })
+        })
     }
 
     return (
@@ -24,7 +32,7 @@ export function Home() {
                         <p className='description'>Estudante de ciências da computação pela Universidade Federal da Bahia (UFBA). Apaixonado por tecnologia e pelo mundo do desenvolvimento.</p>
                     </div>
                     <div className='button-area'>
-                        <Button.Root onClick={downloadCurriulum}>
+                        <Button.Root onClick={downloadCurriculum}>
                             <Button.Icon><DownloadSimple /></Button.Icon>
                             <Button.Text>Baixar currículo</Button.Text>
                         </Button.Root>
