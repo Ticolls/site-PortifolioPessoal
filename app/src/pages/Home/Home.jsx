@@ -9,13 +9,13 @@ import { DownloadSimple } from 'phosphor-react'
 export function Home() {
 
     async function downloadCurriculum() {
-        fetch("Thiago-Seixas.pdf").then(response => {
+        fetch("Curriculo-Thiago-Seixas.pdf").then(response => {
             response.blob().then(blob => {
                 const fileURL = window.URL.createObjectURL(blob)
 
                 let alink = document.createElement('a')
                 alink.href = fileURL
-                alink.download = "Thiago-Seixas.pdf"
+                alink.download = "Curriculo-Thiago-Seixas.pdf"
                 alink.click()
             })
         })
