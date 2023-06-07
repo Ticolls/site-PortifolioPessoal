@@ -8,6 +8,19 @@ import { DownloadSimple } from 'phosphor-react'
 
 export function Home() {
 
+    async function downloadCurriculum() {
+        fetch("src/assets/Curriculo_Thiago_Seixas.pdf").then(response => {
+            response.blob().then(blob => {
+                const fileURL = window.URL.createObjectURL(blob)
+
+                let alink = document.createElement('a')
+                alink.href = fileURL
+                alink.download = "Curriculo_Thiago_Seixas.pdf"
+                alink.click()
+            })
+        })
+    }
+
     return (
 
         <section className='home-section'>
@@ -19,7 +32,7 @@ export function Home() {
                         <p className='description'>Estudante de ciências da computação pela Universidade Federal da Bahia (UFBA). Apaixonado por tecnologia e pelo mundo do desenvolvimento.</p>
                     </div>
                     <div className='button-area'>
-                        <Button.Root>
+                        <Button.Root onClick={downloadCurriculum}>
                             <Button.Icon><DownloadSimple /></Button.Icon>
                             <Button.Text>Baixar currículo</Button.Text>
                         </Button.Root>
