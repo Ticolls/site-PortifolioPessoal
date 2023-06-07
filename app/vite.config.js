@@ -5,11 +5,14 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
 
-  build: {
-    rollupOptions: {
-      output: {
-        assetFileNames: 'assets/Curriculo_Thiago_Seixas.pdf',
-      },
+  esbuild: {
+    jsxFactory: 'React.createElement',
+    jsxFragment: 'React.Fragment',
+  },
+  css: {
+    modules: {
+      localsConvention: 'camelCaseOnly',
     },
   },
+
 })
