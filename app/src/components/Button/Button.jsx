@@ -1,8 +1,9 @@
 import './Button.css'
+import pdf from '../../assets/Curriculo_Thiago_Seixas.pdf'
 
 function ButtonRoot({ children, ...props }) {
     return (
-        <a className='button-root' {...props} /* href='src/assets/Curriculo_Thiago_Seixas.pdf' download */>
+        <a className='button-root' {...props} href={pdf} target='_blank'>
             {children}
         </a>
     )
