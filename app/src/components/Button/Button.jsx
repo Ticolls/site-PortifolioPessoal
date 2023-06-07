@@ -2,9 +2,9 @@ import './Button.css'
 
 function ButtonRoot({ children, ...props }) {
     return (
-        <button className='button-root' {...props}>
+        <a className='button-root' {...props} href='src/assets/Curriculo_Thiago_Seixas.pdf' download>
             {children}
-        </button>
+        </a>
     )
 }
 
